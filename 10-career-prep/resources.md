@@ -69,7 +69,7 @@
 
 | Resource | Link |
 |----------|------|
-| ML Interview Questions | https://github.com/andrewekhalel/MLQuestions |
+| ML Interview Questions (see also Free Interview Prep) | https://github.com/andrewekhalel/MLQuestions |
 | System Design Primer | https://github.com/donnemartin/system-design-primer |
 | AI/ML Interview Resources | https://github.com/khangich/machine-learning-interview |
 | Chip Huyen ML Systems Design | https://github.com/chiphuyen/machine-learning-systems-design |
