@@ -109,4 +109,4 @@ See [projects/](./projects/) for the starter code.
 - [ ] Written at least 10 unit tests
 - [ ] Pushed to GitHub with a proper README
 
-**Next Stage → [02 Data Analysis](../02-data-analysis/)**
+**Next Stage → [02 Data Analysis](../02-data/)**

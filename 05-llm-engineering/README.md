@@ -179,4 +179,4 @@ See [projects/](./projects/) for full project templates.
 - [ ] Completed the multi-agent research system
 - [ ] Pushed everything to GitHub
 
-**Next Stage → [06 MLOps](../06-mlops/)**
+**Next Stage → [06 AI Agents](../06-ai-agents/)**

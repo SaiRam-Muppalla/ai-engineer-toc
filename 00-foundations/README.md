@@ -103,4 +103,4 @@ See [projects/linear_regression_from_scratch/](./projects/) for the starter code
 - [ ] Can explain backpropagation math in simple terms
 - [ ] Pushed all work to your GitHub
 
-**Next Stage → [01 Python for AI](../01-python-for-ai/)**
+**Next Stage → [01 Python for AI](../01-python/)**

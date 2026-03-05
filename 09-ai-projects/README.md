@@ -1,4 +1,4 @@
-# Stage 7 — Real-World AI Projects
+# Stage 9 — Real-World AI Projects
 
 ## 🎯 Overview
 
@@ -378,3 +378,5 @@ After completing projects, share them here by opening a PR!
 | Student | Project | Demo Link | GitHub |
 |---------|---------|-----------|--------|
 | — | — | — | — |
+
+**Next Stage → [10 Career Prep](../10-career-prep/)**

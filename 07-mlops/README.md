@@ -1,4 +1,4 @@
-# Stage 6 — MLOps & AI Deployment
+# Stage 7 — MLOps & AI Deployment
 
 ## 🎯 Learning Objectives
 
@@ -177,4 +177,4 @@ See [projects/mlops-pipeline/](./projects/) for the full template.
 - [ ] Deployed a model to a cloud platform (AWS/GCP/Modal)
 - [ ] Pushed the complete MLOps project to GitHub
 
-**Next Stage → [07 AI Projects](../07-ai-projects/)**
+**Next Stage → [08 Deployment](../08-deployment/)**
