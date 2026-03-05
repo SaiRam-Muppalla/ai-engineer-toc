@@ -2,12 +2,7 @@
 
 ## 🎯 Overview
 
-This stage contains **18 complete, real-world AI projects** ranging from beginner to advanced. Each project comes with:
-- Complete project specification
-- Architecture diagram
-- Starter code
-- Deployment instructions
-- Expected results
+This stage contains **20 complete, real-world AI projects** ranging from beginner to advanced. Each project includes a description, technologies used, and expected learning outcomes so you know exactly what you will build and what skills you will gain.
 
 **Choose projects that align with your target role or startup idea.**
 
@@ -17,336 +12,201 @@ This stage contains **18 complete, real-world AI projects** ranging from beginne
 
 | # | Project | Difficulty | Key Tech | Time |
 |---|---------|-----------|---------|------|
-| 01 | [Resume Screening AI](#01-resume-screening-ai) | ⭐⭐ | NLP, Scikit-learn | 3 days |
-| 02 | [ChatGPT-like Chatbot](#02-chatgpt-like-chatbot) | ⭐⭐ | LangChain, Streamlit | 2 days |
-| 03 | [AI Code Assistant](#03-ai-code-assistant) | ⭐⭐⭐ | CodeLLM, VSCode ext | 5 days |
-| 04 | [AI Research Paper Summarizer](#04-ai-research-paper-summarizer) | ⭐⭐ | RAG, PDF parsing | 3 days |
-| 05 | [AI Document Search (RAG)](#05-ai-document-search-rag) | ⭐⭐⭐ | RAG, Vector DB | 4 days |
-| 06 | [AI Meeting Summarizer](#06-ai-meeting-summarizer) | ⭐⭐ | Whisper, LLM | 3 days |
-| 07 | [AI Image Classifier](#07-ai-image-classifier) | ⭐⭐ | CNN, PyTorch | 4 days |
-| 08 | [Fake News Detector](#08-fake-news-detector) | ⭐⭐ | NLP, ML | 3 days |
-| 09 | [AI Recommendation System](#09-ai-recommendation-system) | ⭐⭐⭐ | Collaborative filtering | 5 days |
-| 10 | [AI Customer Support Bot](#10-ai-customer-support-bot) | ⭐⭐⭐ | Agents, LangChain | 5 days |
-| 11 | [Multi-Agent AI System](#11-multi-agent-ai-system) | ⭐⭐⭐⭐ | LangGraph, Agents | 7 days |
-| 12 | [AI-Powered Job Board](#12-ai-powered-job-board) | ⭐⭐⭐ | RAG, FastAPI | 5 days |
-| 13 | [Sentiment Analysis Dashboard](#13-sentiment-analysis-dashboard) | ⭐⭐ | BERT, Streamlit | 3 days |
-| 14 | [Stock Price Predictor](#14-stock-price-predictor) | ⭐⭐⭐ | LSTM, time series | 4 days |
-| 15 | [AI Email Generator](#15-ai-email-generator) | ⭐⭐ | Prompt engineering | 2 days |
-| 16 | [Medical Diagnosis Assistant](#16-medical-diagnosis-assistant) | ⭐⭐⭐ | ML, explainability | 5 days |
-| 17 | [AI Content Moderator](#17-ai-content-moderator) | ⭐⭐ | Zero-shot LLM | 2 days |
-| 18 | [AI Learning Tutor](#18-ai-learning-tutor) | ⭐⭐⭐⭐ | Agents, memory | 7 days |
+| 01 | [Resume Screening AI](#project-1-resume-screening-ai) | ⭐⭐ | NLP, Scikit-learn | 3 days |
+| 02 | [ChatGPT-like Chatbot](#project-2-chatgpt-like-chatbot) | ⭐⭐ | LangChain, Streamlit | 2 days |
+| 03 | [AI Code Assistant](#project-3-ai-code-assistant) | ⭐⭐⭐ | CodeLLM, VSCode ext | 5 days |
+| 04 | [AI Document Search (RAG)](#project-4-ai-document-search-rag) | ⭐⭐⭐ | RAG, Vector DB | 4 days |
+| 05 | [AI Image Classifier](#project-5-ai-image-classifier) | ⭐⭐ | CNN, PyTorch | 4 days |
+| 06 | [Fraud Detection System](#project-6-fraud-detection-system) | ⭐⭐⭐ | XGBoost, Imbalanced-learn | 5 days |
+| 07 | [AI Recommendation System](#project-7-ai-recommendation-system) | ⭐⭐⭐ | Collaborative filtering | 5 days |
+| 08 | [AI Customer Support Bot](#project-8-ai-customer-support-bot) | ⭐⭐⭐ | Agents, LangChain | 5 days |
+| 09 | [Multi-Agent AI System](#project-9-multi-agent-ai-system) | ⭐⭐⭐⭐ | LangGraph, Agents | 7 days |
+| 10 | [Sentiment Analysis Dashboard](#project-10-sentiment-analysis-dashboard) | ⭐⭐ | BERT, Streamlit | 3 days |
+| 11 | [Stock Price Predictor](#project-11-stock-price-predictor) | ⭐⭐⭐ | LSTM, time series | 4 days |
+| 12 | [Multimodal AI Application](#project-12-multimodal-ai-application) | ⭐⭐⭐⭐ | GPT-4V, CLIP, Whisper | 7 days |
+| 13 | [AI Research Paper Summarizer](#additional-projects) | ⭐⭐ | RAG, PDF parsing | 3 days |
+| 14 | [AI Meeting Summarizer](#additional-projects) | ⭐⭐ | Whisper, LLM | 3 days |
+| 15 | [Fake News Detector](#additional-projects) | ⭐⭐ | NLP, ML | 3 days |
+| 16 | [AI-Powered Job Board](#additional-projects) | ⭐⭐⭐ | RAG, FastAPI | 5 days |
+| 17 | [AI Email Generator](#additional-projects) | ⭐⭐ | Prompt engineering | 2 days |
+| 18 | [Medical Diagnosis Assistant](#additional-projects) | ⭐⭐⭐ | ML, explainability | 5 days |
+| 19 | [AI Content Moderator](#additional-projects) | ⭐⭐ | Zero-shot LLM | 2 days |
+| 20 | [Personalized AI Learning Tutor](#additional-projects) | ⭐⭐⭐⭐ | Agents, memory | 7 days |
 
 ---
 
 ## Project Details
 
-### 01. Resume Screening AI
+### Project 1: Resume Screening AI
 
-**Goal:** Automatically rank and filter resumes for a job description.
+**Description:** Build an intelligent resume screening tool that automatically parses, ranks, and filters candidate resumes against a given job description using semantic similarity and NLP techniques.
 
-**Tech Stack:** Python, Scikit-learn, HuggingFace, Streamlit
+**Technologies:** Python, Scikit-learn, HuggingFace sentence-transformers, Streamlit, PDF/DOCX parsing libraries
 
-**Features:**
-- Parse PDF/DOCX resumes
-- Extract skills, experience, and education
-- Score resumes against a job description using semantic similarity
-- Rank candidates with explainable scores
-- Streamlit UI for HR teams
-
-**Key Skills:** NLP, TF-IDF, sentence-transformers, PDF parsing
+**Learning Outcomes:**
+- Apply NLP techniques (TF-IDF, sentence embeddings) to real-world text matching problems
+- Build end-to-end ML pipelines that ingest unstructured documents and produce ranked outputs
+- Design user-facing AI tools with explainable scoring for non-technical stakeholders
 
 ---
 
-### 02. ChatGPT-like Chatbot
+### Project 2: ChatGPT-like Chatbot
 
-**Goal:** A conversational chatbot with memory and streaming responses.
+**Description:** Create a conversational chatbot with multi-turn memory and real-time streaming responses, supporting multiple LLM backends and system prompt customization.
 
-**Tech Stack:** LangChain, OpenAI/Ollama, Streamlit
+**Technologies:** LangChain, OpenAI API / Ollama, Streamlit, Python
 
-**Features:**
-- Multi-turn conversation with memory
-- Streaming responses (character by character)
-- Choose between multiple LLM models
-- Export conversation history
-- System prompt customization
-
-**Key Skills:** LangChain, chat history management, streaming
+**Learning Outcomes:**
+- Implement conversation memory management and multi-turn dialogue handling
+- Build streaming response interfaces that deliver token-by-token output to the user
+- Configure and swap between different LLM providers using a unified framework
 
 ---
 
-### 03. AI Code Assistant
+### Project 3: AI Code Assistant
 
-**Goal:** A coding assistant that explains code, generates functions, and fixes bugs.
+**Description:** Develop a coding assistant that can explain code, generate functions from natural language descriptions, fix bugs with detailed explanations, and automatically write unit tests and docstrings.
 
-**Tech Stack:** CodeLlama or GPT-4, FastAPI, VS Code Extension
+**Technologies:** CodeLlama / GPT-4, FastAPI, VS Code Extension API, Python
 
-**Features:**
-- Explain any selected code
-- Generate code from natural language
-- Fix bugs with explanation
-- Write unit tests automatically
-- Add docstrings automatically
-
-**Key Skills:** Code LLMs, prompt engineering, VS Code extension development
+**Learning Outcomes:**
+- Work with code-specialized LLMs and craft effective prompts for code generation tasks
+- Build a VS Code extension that integrates AI capabilities into a developer workflow
+- Design multi-task AI systems that handle explanation, generation, and debugging in a unified interface
 
 ---
 
-### 04. AI Research Paper Summarizer
+### Project 4: AI Document Search (RAG)
 
-**Goal:** Upload PDFs of research papers and get concise summaries and Q&A.
+**Description:** Build a production-grade Retrieval-Augmented Generation system that indexes thousands of enterprise documents and answers user queries with source citations using hybrid semantic and keyword search.
 
-**Tech Stack:** LangChain, Chroma, sentence-transformers, Streamlit
+**Technologies:** LangChain, Pinecone / Chroma, FastAPI, React or Streamlit, sentence-transformers
 
-**Features:**
-- Upload multiple PDF papers
-- Auto-generate: abstract, key contributions, methods, results, limitations
-- Ask questions about papers
-- Compare papers across dimensions
-- Export to Markdown/PDF
-
-**Key Skills:** RAG, PDF parsing, document summarization
+**Learning Outcomes:**
+- Architect and deploy a full RAG pipeline including document ingestion, chunking, embedding, and retrieval
+- Implement hybrid search combining dense vector similarity with sparse keyword matching
+- Build production-ready AI systems with admin panels, usage analytics, and scalable vector storage
 
 ---
 
-### 05. AI Document Search System (RAG)
+### Project 5: AI Image Classifier
 
-**Goal:** A production-grade document search system for enterprise knowledge bases.
+**Description:** Build a production-grade image classification system by fine-tuning a pretrained CNN on a custom dataset, complete with explainability visualizations (Grad-CAM), a drag-and-drop UI, and a Dockerized deployment.
 
-**Tech Stack:** LangChain, Pinecone, FastAPI, React or Streamlit
+**Technologies:** PyTorch, ResNet / EfficientNet, FastAPI, Streamlit, Docker, Grad-CAM
 
-**Features:**
-- Index thousands of documents (PDF, Word, web pages)
-- Semantic + keyword hybrid search
-- Answer with source citations
-- Admin panel to manage the knowledge base
-- Usage analytics
-
-**Key Skills:** RAG, hybrid search, vector databases, production deployment
+**Learning Outcomes:**
+- Apply transfer learning to fine-tune pretrained models on domain-specific image datasets
+- Implement Grad-CAM visualizations to explain model predictions and build trust with users
+- Containerize and deploy deep learning models as production-ready API services
 
 ---
 
-### 06. AI Meeting Summarizer
+### Project 6: Fraud Detection System
 
-**Goal:** Upload a meeting recording and get structured notes, action items, and summaries.
+**Description:** Build an end-to-end fraud detection pipeline that identifies fraudulent transactions in real time using machine learning models trained on highly imbalanced financial datasets, with explainable predictions and an alerting dashboard.
 
-**Tech Stack:** OpenAI Whisper, GPT-4, FastAPI, Streamlit
+**Technologies:** Python, XGBoost, Scikit-learn, Imbalanced-learn (SMOTE), SHAP, FastAPI, Streamlit, Docker
 
-**Features:**
-- Transcribe audio/video files (Whisper)
-- Generate meeting summary
-- Extract action items with owners
-- Identify key decisions
-- Speaker diarization (who said what)
-- Export to Notion/Slack
-
-**Key Skills:** Audio processing, Whisper API, structured output from LLMs
+**Learning Outcomes:**
+- Handle severely imbalanced datasets using resampling techniques (SMOTE, undersampling) and appropriate evaluation metrics (precision-recall, F1, AUC-ROC)
+- Build real-time inference pipelines that score incoming transactions and trigger fraud alerts
+- Apply SHAP-based model explainability to surface the key features driving each fraud prediction
 
 ---
 
-### 07. AI Image Classifier
+### Project 7: AI Recommendation System
 
-**Goal:** A production-grade image classifier for a specific domain.
+**Description:** Build a product or content recommendation engine that combines collaborative filtering, content-based filtering, and a hybrid approach, with strategies for the cold-start problem and an A/B testing framework.
 
-**Tech Stack:** PyTorch, ResNet/EfficientNet, FastAPI, Streamlit, Docker
+**Technologies:** Scikit-learn, Surprise library, Matrix Factorization (SVD), FastAPI, Python
 
-**Features:**
-- Fine-tune on a custom dataset
-- Drag-and-drop image upload
-- Top-5 predictions with confidence scores
-- Grad-CAM visualization (explain the prediction)
-- Batch prediction API
-- Dockerized deployment
-
-**Key Skills:** Transfer learning, PyTorch, explainable AI, production deployment
+**Learning Outcomes:**
+- Implement collaborative filtering and content-based recommendation algorithms from scratch
+- Design hybrid recommendation strategies and evaluate them with ranking metrics (MAP, NDCG)
+- Build a real-time recommendation API with cold-start handling and an A/B testing framework
 
 ---
 
-### 08. Fake News Detector
+### Project 8: AI Customer Support Bot
 
-**Goal:** Classify news articles as real or fake with explainability.
+**Description:** Create an intelligent customer support chatbot that answers FAQs from a knowledge base using RAG, handles multi-turn conversations, and escalates complex issues to human agents when confidence is low.
 
-**Tech Stack:** NLP, XGBoost, BERT, SHAP, FastAPI
+**Technologies:** LangChain Agents, RAG, Pinecone / Chroma, FastAPI, Streamlit
 
-**Features:**
-- Classify article text or URL
-- SHAP explanation: which words caused the prediction
-- Credibility score (0–100)
-- Browser extension (bonus)
-- API endpoint
-
-**Key Skills:** NLP, classification, SHAP, model explainability
+**Learning Outcomes:**
+- Build agentic AI systems that combine retrieval, reasoning, and function calling
+- Implement confidence-based escalation logic for graceful human handoff
+- Design conversation analytics dashboards to monitor bot performance and identify knowledge gaps
 
 ---
 
-### 09. AI Recommendation System
+### Project 9: Multi-Agent AI System
 
-**Goal:** A product/content recommendation system.
+**Description:** Build a multi-agent research assistant where specialized agents (Planner, Researcher, Fact-Checker, Writer) collaborate autonomously to gather information from the web and produce verified, well-structured reports.
 
-**Tech Stack:** Scikit-learn, Matrix Factorization, FastAPI
+**Technologies:** LangGraph, OpenAI, Tavily Search API, FastAPI, Python
 
-**Features:**
-- Collaborative filtering (user-item matrix)
-- Content-based filtering (item features)
-- Hybrid approach
-- Handle cold-start problem
-- A/B testing framework
-- Real-time recommendations API
-
-**Key Skills:** Collaborative filtering, SVD, surprise library, recommendation metrics
+**Learning Outcomes:**
+- Design and orchestrate multi-agent workflows with explicit state management using LangGraph
+- Implement tool-using agents that autonomously search, verify, and synthesize information
+- Build reliable agent pipelines with error handling, retries, and human-in-the-loop checkpoints
 
 ---
 
-### 10. AI Customer Support Bot
+### Project 10: Sentiment Analysis Dashboard
 
-**Goal:** An intelligent customer support bot that handles FAQs and escalates complex issues.
+**Description:** Build a real-time sentiment analysis dashboard that processes social media posts and product reviews, visualizes sentiment trends over time, extracts key discussion topics, and supports competitor comparison.
 
-**Tech Stack:** LangChain Agents, RAG, FastAPI, Streamlit
+**Technologies:** HuggingFace BERT / Transformers, FastAPI, Streamlit, Plotly, Python
 
-**Features:**
-- Answer FAQs from a knowledge base (RAG)
-- Handle multi-turn conversations
-- Escalate to human when confidence is low
-- Integrate with ticketing systems
-- Conversation analytics dashboard
-
-**Key Skills:** Agents, RAG, function calling, conversation management
+**Learning Outcomes:**
+- Fine-tune and deploy transformer-based NLP models for sentiment classification
+- Build real-time data pipelines that scrape, process, and visualize streaming text data
+- Create interactive dashboards with trend analysis, topic extraction, and comparative analytics
 
 ---
 
-### 11. Multi-Agent AI System
+### Project 11: Stock Price Predictor
 
-**Goal:** A research assistant that autonomously gathers information and writes reports.
+**Description:** Predict stock price movements by combining LSTM time-series models with sentiment analysis from financial news, featuring uncertainty quantification, interactive Plotly charts, and a backtesting framework.
 
-**Tech Stack:** LangGraph, OpenAI, Tavily Search, FastAPI
+**Technologies:** PyTorch (LSTM), yfinance, OpenAI / LLM for sentiment, FastAPI, Streamlit, Plotly
 
-**Agents:**
-- **Planner** — Breaks down research into subtasks
-- **Researcher** — Searches the web for information
-- **Fact-Checker** — Verifies claims
-- **Writer** — Composes the final report
-
-**Key Skills:** LangGraph, multi-agent orchestration, tool use, state management
+**Learning Outcomes:**
+- Build and train LSTM networks for time-series forecasting with proper train/validation/test splits
+- Combine structured numerical data with unstructured text sentiment as multi-signal input features
+- Implement backtesting frameworks to evaluate trading strategies and quantify prediction uncertainty
 
 ---
 
-### 12. AI-Powered Job Board
+### Project 12: Multimodal AI Application
 
-**Goal:** A smart job board that matches candidates to jobs semantically.
+**Description:** Build a multimodal AI application that accepts and reasons over text, images, and audio inputs simultaneously—enabling use cases such as visual question answering, image-captioning with voice queries, and cross-modal search.
 
-**Tech Stack:** FastAPI, PostgreSQL, Pinecone, React/Streamlit
+**Technologies:** GPT-4V / LLaVA, OpenAI CLIP, OpenAI Whisper, LangChain, FastAPI, Streamlit, Python
 
-**Features:**
-- Semantic job search (not just keyword matching)
-- Resume-to-job matching score
-- Auto-generate cover letters
-- Salary insights with ML
-- Job recommendation feed
-
-**Key Skills:** Semantic search, embeddings, full-stack AI, PostgreSQL
+**Learning Outcomes:**
+- Integrate multiple AI modalities (vision, language, audio) into a unified application pipeline
+- Work with state-of-the-art multimodal models (GPT-4V, CLIP, Whisper) and understand their capabilities and limitations
+- Design intuitive user interfaces that handle heterogeneous input types and present coherent cross-modal outputs
 
 ---
 
-### 13. Sentiment Analysis Dashboard
+## Additional Projects
 
-**Goal:** Real-time sentiment analysis of social media or product reviews.
+The following projects follow the same hands-on format. Refer to each project folder for the full specification, starter code, and deployment instructions.
 
-**Tech Stack:** HuggingFace BERT, FastAPI, Streamlit, Plotly
-
-**Features:**
-- Analyze text input or bulk CSV upload
-- Real-time Twitter/Reddit sentiment scraping
-- Trend visualization over time
-- Topic extraction (what are people talking about?)
-- Competitor comparison
-
-**Key Skills:** BERT, HuggingFace transformers, real-time dashboards
-
----
-
-### 14. Stock Price Predictor
-
-**Goal:** Predict stock price movements using historical data and sentiment.
-
-**Tech Stack:** PyTorch LSTM, yfinance, FastAPI, Streamlit
-
-**Features:**
-- Download historical stock data
-- LSTM model for time series prediction
-- Sentiment from financial news (via LLM)
-- Uncertainty quantification
-- Interactive charts with Plotly
-- Backtesting framework
-
-**Key Skills:** Time series, LSTM, financial data, backtesting
-
----
-
-### 15. AI Email Generator
-
-**Goal:** Generate personalized emails for any use case.
-
-**Tech Stack:** OpenAI/LLM, FastAPI, Streamlit
-
-**Features:**
-- Sales outreach emails (personalized from LinkedIn profile)
-- Follow-up sequences
-- Cold email generation
-- Tone adjustment (formal, casual, persuasive)
-- A/B test different email variations
-
-**Key Skills:** Prompt engineering, few-shot learning, text generation
-
----
-
-### 16. Medical Diagnosis Assistant
-
-**Goal:** Assist doctors with preliminary diagnosis from patient symptoms.
-
-**Tech Stack:** Scikit-learn, SHAP, FastAPI, Streamlit
-
-**Features:**
-- Input patient symptoms and test results
-- Predict likely conditions (with probability)
-- SHAP explanation: which symptoms matter most
-- Disclaimer: "This is not medical advice"
-- Export report for doctors
-
-**Key Skills:** Classification, medical datasets, explainability, ethics
-
----
-
-### 17. AI Content Moderator
-
-**Goal:** Automatically detect harmful, toxic, or policy-violating content.
-
-**Tech Stack:** HuggingFace zero-shot classification, FastAPI
-
-**Features:**
-- Classify text as: safe, toxic, spam, NSFW, hate speech
-- Zero-shot classification (no training data needed)
-- Confidence threshold with human review queue
-- Bulk moderation API
-- Dashboard with moderation statistics
-
-**Key Skills:** Zero-shot classification, HuggingFace, content safety
-
----
-
-### 18. Personalized AI Learning Tutor
-
-**Goal:** An adaptive AI tutor that teaches topics and adjusts to the student.
-
-**Tech Stack:** LangChain, LangGraph, vector memory, Streamlit
-
-**Features:**
-- Teach any topic from beginner to advanced
-- Adapt difficulty based on student responses
-- Quiz mode with feedback
-- Track progress and weak areas
-- Generate personalized study plans
-- Explain concepts multiple ways
-
-**Key Skills:** Multi-turn agents, memory, adaptive systems, pedagogical prompting
+| # | Project | Description | Technologies | Time |
+|---|---------|-------------|-------------|------|
+| 13 | AI Research Paper Summarizer | Upload research PDFs and get structured summaries, Q&A, and cross-paper comparisons | LangChain, Chroma, sentence-transformers, Streamlit | 3 days |
+| 14 | AI Meeting Summarizer | Transcribe meeting recordings and extract summaries, action items, and key decisions with speaker diarization | OpenAI Whisper, GPT-4, FastAPI, Streamlit | 3 days |
+| 15 | Fake News Detector | Classify news articles as real or fake with SHAP-based explainability and a credibility score | NLP, XGBoost, BERT, SHAP, FastAPI | 3 days |
+| 16 | AI-Powered Job Board | Smart job board with semantic job search, resume-to-job matching, and auto-generated cover letters | FastAPI, PostgreSQL, Pinecone, React/Streamlit | 5 days |
+| 17 | AI Email Generator | Generate personalized outreach emails with tone adjustment and A/B test variations | OpenAI/LLM, FastAPI, Streamlit | 2 days |
+| 18 | Medical Diagnosis Assistant | Assist doctors with preliminary diagnosis from symptoms using ML with SHAP explainability | Scikit-learn, SHAP, FastAPI, Streamlit | 5 days |
+| 19 | AI Content Moderator | Detect harmful, toxic, or policy-violating content using zero-shot classification | HuggingFace zero-shot, FastAPI, Streamlit | 2 days |
+| 20 | Personalized AI Learning Tutor | Adaptive AI tutor that adjusts difficulty, tracks progress, and generates personalized study plans | LangChain, LangGraph, vector memory, Streamlit | 7 days |
 
 ---
 
