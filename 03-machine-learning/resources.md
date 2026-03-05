@@ -8,6 +8,7 @@
 | [Krish Naik — ML from Scratch](https://www.youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe) | Full ML course in Hindi/English |
 | [Sentdex — ML Practical](https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v) | Practical Python ML |
 | [Andrej Karpathy — Intro to ML](https://www.youtube.com/watch?v=VMj-3S1tku0) | Neural network fundamentals |
+| [Two Minute Papers](https://www.youtube.com/c/KárolyZsolnai) | Latest ML research |
 
 ## 📘 Books
 
@@ -42,3 +43,21 @@
 | Titanic (beginner) | https://www.kaggle.com/c/titanic |
 | House Prices | https://www.kaggle.com/c/house-prices-advanced-regression-techniques |
 | Spaceship Titanic | https://www.kaggle.com/c/spaceship-titanic |
+
+## 🌐 Best Open Source Resources
+
+| Resource | Link |
+|----------|------|
+| Scikit-learn Tutorials | https://scikit-learn.org/stable/tutorial/ |
+| Kaggle Learn ML Courses | https://www.kaggle.com/learn |
+| Google ML Crash Course | https://developers.google.com/machine-learning/crash-course |
+| Awesome Machine Learning | https://github.com/josephmisiti/awesome-machine-learning |
+
+## 📄 Best Free PDFs / Courses
+
+| Resource | Link |
+|----------|------|
+| Stanford CS229 Machine Learning | https://cs229.stanford.edu/ |
+| Stanford CS229 Lecture Notes | https://cs229.stanford.edu/main_notes.pdf |
+| Berkeley CS189 Introduction to Machine Learning | https://www.eecs189.org/ |
+| Fast.ai Practical Machine Learning | https://course.fast.ai/ |
