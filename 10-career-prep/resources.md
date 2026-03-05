@@ -1,4 +1,4 @@
-# Stage 9 — Career Preparation Resources
+# Stage 10 — Career Preparation Resources
 
 ## 📺 YouTube Interview Prep
 
@@ -8,6 +8,15 @@
 | [AI System Design (Exponent)](https://www.youtube.com/watch?v=3RkV9jCBm_0) | AI system design interview |
 | [LeetCode Python (NeetCode)](https://www.youtube.com/c/NeetCode) | Python DSA for coding rounds |
 | [ML Coding Interviews](https://www.youtube.com/watch?v=4B_OknroHMA) | Implement ML from scratch interviews |
+
+## 📚 Best Books
+
+| Book | Description |
+|------|-------------|
+| Designing Machine Learning Systems (Chip Huyen) | End-to-end ML systems design and production best practices |
+| System Design Interview (Alex Xu) | Industry-standard system design interview preparation |
+| Cracking the Coding Interview (Gayle McDowell) | Classic coding interview prep covering DSA and problem-solving |
+| Machine Learning System Design (various authors) | Comprehensive ML system design patterns and case studies |
 
 ## 📘 Interview Books
 
@@ -55,3 +64,12 @@
 | [Resume.io](https://resume.io) | Clean resume templates |
 | [Canva Resume](https://www.canva.com/resumes/) | Visual resumes |
 | [Overleaf](https://overleaf.com) | LaTeX resumes (academic style) |
+
+## 🔓 Best Open Source Resources
+
+| Resource | Link |
+|----------|------|
+| ML Interview Questions | https://github.com/andrewekhalel/MLQuestions |
+| System Design Primer | https://github.com/donnemartin/system-design-primer |
+| AI/ML Interview Resources | https://github.com/khangich/machine-learning-interview |
+| Chip Huyen ML Systems Design | https://github.com/chiphuyen/machine-learning-systems-design |
