@@ -27,6 +27,13 @@ By the end of this stage you will:
 | Batch vs Streaming | Batch for periodic jobs; streaming for real-time (Kafka, Pub/Sub) |
 | Data Quality | Validation, schema checks, completeness, consistency |
 | Data Versioning | Track dataset versions for reproducibility (DVC, Delta Lake) |
+| Feature Stores | Centralized repository for storing, serving, and reusing ML features (Feast, Tecton, Hopsworks) |
+
+**Feature Stores:**
+- Store and serve precomputed features for training and inference
+- Ensure consistency between offline (training) and online (serving) features
+- Tools: Feast (open-source), Tecton, Hopsworks, AWS SageMaker Feature Store
+- Key concepts: feature pipelines, point-in-time correctness, feature reuse
 
 **SQL for Data Engineering:**
 - Writing complex queries: JOINs, CTEs, window functions

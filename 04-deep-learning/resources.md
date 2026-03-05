@@ -12,6 +12,7 @@
 | [3Blue1Brown — Neural Networks](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) | Visual neural network series |
 | [DeepLearningAI YouTube](https://www.youtube.com/@Deeplearningai) | Andrew Ng's channel |
 | [Two Minute Papers](https://www.youtube.com/c/KárolyZsolnai) | Latest DL research |
+| [AI Coffee Break with Letitia](https://www.youtube.com/@AICoffeeBreak) | Transformer and NLP paper explanations |
 
 ## 🌐 Best Open Source Resources
 
