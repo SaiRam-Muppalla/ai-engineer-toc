@@ -35,3 +35,20 @@
 | Superstore Sales | https://www.kaggle.com/datasets/vivek468/superstore-dataset-final |
 | Ames Housing | https://www.kaggle.com/c/house-prices-advanced-regression-techniques |
 | Netflix Movies | https://www.kaggle.com/datasets/shivamb/netflix-shows |
+
+## 📚 Best Books
+
+| Book | Author |
+|------|--------|
+| Python for Data Analysis | Wes McKinney |
+| Storytelling with Data | Cole Nussbaumer Knaflic |
+| Data Science from Scratch | Joel Grus |
+
+## 🌐 Best Open Source Resources
+
+| Resource | Link |
+|----------|------|
+| Kaggle Notebooks | https://www.kaggle.com/notebooks |
+| Awesome Data Science | https://github.com/academic/awesome-datascience |
+| Streamlit Documentation | https://docs.streamlit.io/ |
+| Plotly Documentation | https://plotly.com/python/ |
