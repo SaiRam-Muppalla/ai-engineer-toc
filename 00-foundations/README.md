@@ -40,6 +40,21 @@ By the end of this stage you will:
 | Hypothesis testing | Evaluating model performance |
 | Correlation & covariance | Feature relationships |
 
+### Computer Science Fundamentals
+
+| Concept | Why It Matters in AI |
+|---------|----------------------|
+| Big-O notation | Evaluating algorithm efficiency |
+| Arrays and linked lists | Data representation |
+| Hash tables and dictionaries | Fast lookup, caching |
+| Stacks and queues | BFS/DFS, agent workflows |
+| Trees and graphs | Decision trees, knowledge graphs |
+| Sorting and searching | Data preprocessing, nearest neighbor |
+| Recursion | Backtracking, divide and conquer |
+| Basic complexity analysis | Choosing efficient algorithms for large datasets |
+
+> You don't need competitive programming mastery — but understanding these basics helps you write efficient AI pipelines and pass coding interviews.
+
 ---
 
 ## 🛠️ Tools & Technologies
@@ -103,4 +118,4 @@ See [projects/linear_regression_from_scratch/](./projects/) for the starter code
 - [ ] Can explain backpropagation math in simple terms
 - [ ] Pushed all work to your GitHub
 
-**Next Stage → [01 Python for AI](../01-python-for-ai/)**
+**Next Stage → [01 Python for AI](../01-python/)**

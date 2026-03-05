@@ -7,8 +7,7 @@ By the end of this stage you will:
 - Build RAG (Retrieval-Augmented Generation) systems from scratch
 - Work with vector databases (FAISS, Pinecone, Weaviate)
 - Fine-tune open-source LLMs with LoRA/QLoRA
-- Build single and multi-agent AI systems
-- Create AI copilots and tool-using agents
+- Understand foundations of AI agents and tool use
 
 ## ⏱️ Estimated Time: 3 weeks
 
@@ -66,13 +65,13 @@ User Query → Embed → Search Vector DB → Top-K Chunks + LLM → Answer
 
 **Tools:** HuggingFace PEFT, TRL, bitsandbytes, Axolotl
 
-### 5. AI Agents
+### 5. AI Agents (Overview)
 
 - **Tool use:** Give LLMs access to functions (web search, calculator, APIs)
 - **ReAct agents:** Reason → Act → Observe → Repeat
 - **Memory:** Short-term (context window), long-term (vector DB)
-- **Planning:** Task decomposition and sub-goal creation
-- **Multi-agent systems:** Orchestrator + Specialist agents
+
+**For in-depth coverage of AI agents, see [Stage 6 — AI Agents](../06-ai-agents/)**
 
 ### 6. LLM Frameworks
 
@@ -80,10 +79,8 @@ User Query → Embed → Search Vector DB → Top-K Chunks + LLM → Answer
 |-----------|---------|
 | LangChain | General-purpose LLM apps |
 | LlamaIndex | Document indexing and RAG |
-| LangGraph | Stateful, cyclic agent workflows |
-| CrewAI | Multi-agent collaboration |
-| AutoGen | Microsoft's multi-agent framework |
-| Semantic Kernel | Enterprise AI orchestration |
+
+> Agent-specific frameworks (LangGraph, CrewAI, AutoGen) are covered in [Stage 6 — AI Agents](../06-ai-agents/).
 
 ---
 
@@ -154,18 +151,6 @@ Build a system that lets users upload PDF research papers and ask questions.
 - Compare papers side by side
 - Streamlit UI with file upload
 
-### Project 2: Multi-Agent AI System
-
-Build a multi-agent system that autonomously researches topics and writes reports.
-
-**Agents:**
-- **Planner Agent** — Breaks down research task into subtasks
-- **Researcher Agent** — Searches the web and extracts information
-- **Critic Agent** — Reviews and fact-checks the research
-- **Writer Agent** — Composes the final structured report
-
-**Tech:** LangGraph + Tavily Search API + GPT-4
-
 See [projects/](./projects/) for full project templates.
 
 ---
@@ -176,7 +161,8 @@ See [projects/](./projects/) for full project templates.
 - [ ] Built the personal Wikipedia bot
 - [ ] Built the code review bot
 - [ ] Completed the RAG paper summarizer
-- [ ] Completed the multi-agent research system
 - [ ] Pushed everything to GitHub
 
-**Next Stage → [06 MLOps](../06-mlops/)**
+> For agent-related projects, see [Stage 6 — AI Agents](../06-ai-agents/).
+
+**Next Stage → [06 AI Agents](../06-ai-agents/)**

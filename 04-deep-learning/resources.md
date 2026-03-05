@@ -9,6 +9,28 @@
 | [PyTorch Tutorials (Official)](https://www.youtube.com/playlist?list=PL_lsbAsL_o2CTlGHgMxNrKhzP97BaG9ZN) | Official PyTorch channel |
 | [Andrej Karpathy Lectures](https://www.youtube.com/c/AndrejKarpathy) | GPT and transformers |
 | [Yannic Kilcher Paper Reviews](https://www.youtube.com/c/YannicKilcher) | Latest research explained |
+| [3Blue1Brown — Neural Networks](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) | Visual neural network series |
+| [DeepLearningAI YouTube](https://www.youtube.com/@Deeplearningai) | Andrew Ng's channel |
+| [Two Minute Papers](https://www.youtube.com/c/KárolyZsolnai) | Latest DL research |
+
+## 🌐 Best Open Source Resources
+
+| Resource | Link |
+|----------|------|
+| PyTorch tutorials | https://pytorch.org/tutorials/ |
+| HuggingFace documentation | https://huggingface.co/docs |
+| Papers With Code | https://paperswithcode.com/ |
+| Awesome Deep Learning | https://github.com/ChristosChristofidis/awesome-deep-learning |
+| Fast.ai library docs | https://docs.fast.ai/ |
+
+## 📄 Best Free PDFs / Courses
+
+| Course | Link |
+|--------|------|
+| Stanford CS231n (Computer Vision) | https://cs231n.stanford.edu/ |
+| Stanford CS224n (NLP with Deep Learning) | https://cs224n.stanford.edu/ |
+| MIT 6.S191 Introduction to Deep Learning | https://introtodeeplearning.com/ |
+| Berkeley CS182 Deep Learning | https://cs182sp21.github.io/ |
 
 ## 🎓 Free Courses
 

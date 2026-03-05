@@ -1,4 +1,4 @@
-# Stage 9 — Portfolio & Career Preparation
+# Stage 10 — Portfolio & Career Preparation
 
 ## 🎯 Learning Objectives
 

@@ -54,3 +54,30 @@
 | Cohere | Embeddings + LLMs | https://cohere.com/ |
 | Pinecone | Vector DB | https://www.pinecone.io/ |
 | Chroma | Open vector DB | https://www.trychroma.com/ |
+
+## 📚 Best Books
+
+| Book | Author(s) |
+|------|-----------|
+| Build a Large Language Model From Scratch | Sebastian Raschka |
+| Hands-On Large Language Models | Jay Alammar, Maarten Grootendorst |
+| Designing Machine Learning Systems | Chip Huyen |
+| Natural Language Processing with Transformers | Lewis Tunstall et al. |
+
+## 🌐 Best Open Source Resources
+
+| Resource | Link |
+|----------|------|
+| HuggingFace Transformers | https://github.com/huggingface/transformers |
+| LangChain | https://github.com/langchain-ai/langchain |
+| LlamaIndex | https://github.com/run-llama/llama_index |
+| Awesome LLM | https://github.com/Hannibal046/Awesome-LLM |
+| OpenAI Cookbook | https://github.com/openai/openai-cookbook |
+
+## 🎓 Best Free PDFs / Courses
+
+| Course | Link |
+|--------|------|
+| Stanford CS224n (NLP with Deep Learning) | https://cs224n.stanford.edu/ |
+| Stanford CS324 (Large Language Models) | https://stanford-cs324.github.io/winter2022/ |
+| Princeton COS 597G (Understanding Large Language Models) | https://www.cs.princeton.edu/courses/archive/fall22/cos597G/ |
