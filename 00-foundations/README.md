@@ -103,7 +103,7 @@ See the [exercises/](./exercises/) folder for:
 - Implement linear regression using only NumPy (no Scikit-learn)
 - Use gradient descent to minimize the loss
 - Visualize the training loss curve
-- Evaluate on a real dataset (e.g., Boston Housing, California Housing)
+- Evaluate on a real dataset (e.g., California Housing, Diabetes dataset)
 - Document your math derivations in the README
 
 See [projects/linear_regression_from_scratch/](./projects/) for the starter code.

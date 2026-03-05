@@ -10,6 +10,7 @@
 | [Andrej Karpathy — Let's build GPT](https://www.youtube.com/watch?v=kCc8FmEb1nY) | Build a GPT from scratch |
 | [Fine-Tuning LLMs (Trelis Research)](https://www.youtube.com/c/TrelisResearch) | Practical fine-tuning |
 | [AI Jason — LangGraph Tutorials](https://www.youtube.com/@AIJason) | LangGraph and agents |
+| [DeepLearningAI YouTube](https://www.youtube.com/@Deeplearningai) | LLM courses, RAG tutorials, prompt engineering |
 
 ## 🎓 Free Courses (DeepLearning.AI)
 

@@ -39,7 +39,7 @@ AI-Engineer-Roadmap/
 ├── 06-ai-agents/            # AI agents & multi-agent systems
 ├── 07-mlops/                # MLOps & experiment tracking
 ├── 08-deployment/           # AI deployment, infrastructure & security
-├── 09-ai-projects/          # 20 real-world AI projects
+├── 09-ai-projects/          # 21 real-world AI projects
 └── 10-career-prep/          # Portfolio, interviews, job search
 ```
 

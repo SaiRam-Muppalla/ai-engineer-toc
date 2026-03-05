@@ -372,6 +372,31 @@ Evaluation is critical for deploying reliable AI systems:
 | A/B testing | Compare variants with live traffic | Production validation |
 | Red teaming | Adversarial testing for safety | Pre-deployment |
 
+**Evaluation Datasets and Benchmarks:**
+
+| Dataset / Benchmark | Focus Area | Use Case |
+|---------------------|-----------|----------|
+| MMLU | General LLM knowledge | Measure broad reasoning ability |
+| HumanEval | Code generation | Evaluate code LLMs |
+| TruthfulQA | Hallucination detection | Measure factual accuracy |
+| HELM (Stanford) | Holistic LLM evaluation | Multi-metric comparison |
+| RAGAS | RAG pipeline evaluation | Measure retrieval + generation quality |
+| Custom evaluation sets | Domain-specific | Build your own labeled test cases for your use case |
+
+> **Best practice:** Always create a domain-specific evaluation dataset (50–200 labeled examples) before deploying any AI feature to production.
+
+**RAG Evaluation Metrics:**
+
+| Metric | What It Measures |
+|--------|-----------------|
+| Context Precision | Relevance of retrieved documents |
+| Context Recall | Completeness of retrieved documents |
+| Faithfulness | Whether the answer is grounded in retrieved context |
+| Answer Relevancy | Whether the answer addresses the question |
+| Answer Correctness | Factual accuracy against ground truth |
+
+> **Tools for RAG evaluation:** RAGAS, LangSmith, Langfuse Scores, DeepEval, TruLens
+
 **LLM-as-Judge Example:**
 
 ```python
@@ -449,6 +474,23 @@ def route_query(query: str) -> str:
 | PII Leakage | Model exposes personal information | PII detection/redaction (Presidio) |
 | Hallucination | Confidently generates false information | RAG, citations, confidence scoring |
 | Denial of Wallet | Excessive API calls drain budget | Rate limiting, cost caps |
+| Model Supply Chain | Tampered model weights or dependencies | Verify model checksums, use trusted sources |
+| Adversarial Inputs | Crafted inputs that cause misclassification | Adversarial training, input validation |
+
+**AI Red Teaming:**
+
+Red teaming is the practice of systematically testing AI systems for vulnerabilities, biases, and failure modes before deployment.
+
+| Red Teaming Category | Example Tests |
+|---------------------|---------------|
+| Prompt injection | Attempt to override system prompts via user input |
+| Data leakage | Test if the model reveals training data or system prompts |
+| Bias testing | Check for demographic, cultural, or political biases in outputs |
+| Hallucination probing | Ask factual questions and verify accuracy of responses |
+| Jailbreak attempts | Try known jailbreak patterns across different attack vectors |
+| Output manipulation | Test if the model can be tricked into generating harmful content |
+
+> **Best practice:** Run red team exercises before every major model or prompt update. Use tools like Garak, Microsoft PyRIT, or custom test suites.
 
 **Guardrails Implementation:**
 
@@ -609,6 +651,37 @@ Monitoring (Langfuse / PostHog / Sentry)
 3. **Ship fast, iterate faster** — Launch an MVP in 2 weeks
 4. **Measure what matters** — Track retention, not just signups
 5. **Manage AI costs** — Know your cost per request from day one
+
+**Human-in-the-Loop (HITL) Systems:**
+
+| Pattern | Description | When to Use |
+|---------|-------------|-------------|
+| Review before publish | Human reviews AI output before it reaches the user | High-stakes content (legal, medical, financial) |
+| Feedback loop | Users rate or correct AI outputs to improve quality | Continuous model improvement |
+| Escalation | AI handles routine cases, humans handle edge cases | Customer support, moderation |
+| Active learning | AI flags low-confidence predictions for human labeling | Building training datasets efficiently |
+
+**AI UX Patterns:**
+
+| Pattern | Description |
+|---------|-------------|
+| Streaming responses | Show tokens as they are generated for perceived speed |
+| Confidence indicators | Display certainty levels to set user expectations |
+| Source citations | Show retrieved documents or references for transparency |
+| Suggested prompts | Offer example queries to guide users and reduce blank-page anxiety |
+| Graceful degradation | Show helpful fallback messages when AI fails or is uncertain |
+| Regenerate button | Let users request a new response if the first one is unsatisfactory |
+| Edit and refine | Allow users to modify AI outputs inline |
+
+**Failure Handling and Fallback Systems:**
+
+| Strategy | Implementation |
+|----------|---------------|
+| Circuit breaker | Disable AI feature temporarily after repeated failures |
+| Model fallback chain | Try primary model → fallback to cheaper model → return cached/template response |
+| Timeout handling | Set strict timeouts with user-friendly "still thinking" states |
+| Graceful error messages | Never show raw API errors; provide actionable next steps |
+| Offline mode | Cache recent responses for use when API is unavailable |
 
 ---
 
