@@ -34,3 +34,21 @@
 | [HackerRank](https://www.hackerrank.com) | Python challenges |
 | [Kaggle Learn](https://www.kaggle.com/learn) | Pandas, Python notebooks |
 | [Exercism](https://exercism.org/tracks/python) | Clean code exercises |
+
+## 📚 Best Books
+
+| Book | Author | Notes |
+|------|--------|-------|
+| Python Crash Course | Eric Matthes | Great hands-on intro to Python |
+| Automate the Boring Stuff with Python | Al Sweigart | Also free online: https://automatetheboringstuff.com/ |
+| Fluent Python | Luciano Ramalho | Deep dive into Python internals |
+| Effective Python | Brett Slatkin | Best practices and Pythonic patterns |
+
+## 🌐 Best Open Source Resources
+
+| Resource | Link |
+|----------|------|
+| Python Official Tutorial | https://docs.python.org/3/tutorial/ |
+| Real Python tutorials | https://realpython.com/ |
+| Python Design Patterns | https://python-patterns.guide/ |
+| Awesome Python (curated list) | https://github.com/vinta/awesome-python |
