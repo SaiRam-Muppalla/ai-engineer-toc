@@ -25,9 +25,12 @@
 |----------|-------------|------|
 | Docker Documentation | Official Docker docs — images, containers, Compose, networking | https://docs.docker.com/ |
 | Kubernetes Documentation | Official Kubernetes docs — pods, services, deployments, autoscaling | https://kubernetes.io/docs/ |
+| Terraform Documentation | Infrastructure as code for cloud provisioning | https://developer.hashicorp.com/terraform/docs |
 | vLLM Documentation | High-throughput LLM serving with PagedAttention | https://docs.vllm.ai/ |
+| NVIDIA TensorRT Documentation | GPU-optimized inference engine with kernel fusion | https://docs.nvidia.com/deeplearning/tensorrt/ |
 | Langfuse Documentation | Open-source LLM observability — tracing, evaluation, prompt management | https://langfuse.com/docs |
 | Langsmith Documentation | LangChain tracing, evaluation, and debugging | https://docs.smith.langchain.com/ |
+| Weights & Biases Documentation | Experiment tracking, model monitoring, and evaluation | https://docs.wandb.ai/ |
 | FastAPI Documentation | Modern Python API framework with automatic OpenAPI docs | https://fastapi.tiangolo.com/ |
 | ONNX Runtime Documentation | Cross-platform inference optimization | https://onnxruntime.ai/docs/ |
 | Evidently AI Documentation | Open-source ML monitoring and data quality | https://docs.evidentlyai.com/ |
@@ -40,6 +43,7 @@
 | llama.cpp | Efficient CPU/GPU inference for LLMs | https://github.com/ggerganov/llama.cpp |
 | Prometheus Documentation | Metrics and monitoring | https://prometheus.io/docs/ |
 | Grafana Documentation | Dashboarding and visualization | https://grafana.com/docs/ |
+| Azure ML Documentation | Microsoft Azure machine learning services | https://learn.microsoft.com/en-us/azure/machine-learning/ |
 | Stripe API Documentation | Payment processing for SaaS products | https://stripe.com/docs |
 | PostHog Documentation | Open-source product analytics | https://posthog.com/docs |
 | Supabase Documentation | Open-source Firebase alternative (DB, auth, storage) | https://supabase.com/docs |
@@ -86,6 +90,7 @@
 | [RunPod](https://runpod.io) | Pay-per-use | ✅ | Custom GPU workloads |
 | [AWS Free Tier](https://aws.amazon.com/free/) | 12 months | ❌ (free tier) | Learn cloud fundamentals |
 | [GCP Free Tier](https://cloud.google.com/free) | $300 credit | ✅ (with credits) | Learn cloud + AI services |
+| [Azure Free Tier](https://azure.microsoft.com/en-us/free/) | $200 credit | ✅ (with credits) | Learn Azure ML + cloud services |
 | [Vercel](https://vercel.com) | Yes | ❌ | Frontend deployment |
 
 ## 📄 Essential Papers & Blog Posts

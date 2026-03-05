@@ -15,6 +15,8 @@
 |----------|------|
 | MLflow Documentation | https://mlflow.org/docs/latest/ |
 | DVC Documentation | https://dvc.org/doc |
+| Weights & Biases Documentation | https://docs.wandb.ai/ |
+| Terraform Documentation | https://developer.hashicorp.com/terraform/docs |
 | Evidently AI | https://github.com/evidentlyai/evidently |
 | Great Expectations | https://github.com/great-expectations/great_expectations |
 | Awesome MLOps | https://github.com/visenger/awesome-mlops |

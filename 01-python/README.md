@@ -42,6 +42,23 @@ By the end of this stage you will:
 - Parsing JSON responses
 - Rate limiting and error handling
 
+### SQL Basics for AI Engineers
+- SELECT, WHERE, JOIN, GROUP BY, ORDER BY
+- Aggregations and window functions
+- Creating and querying tables
+- Working with SQLite and PostgreSQL from Python
+- `pandas.read_sql()` for loading data directly into DataFrames
+
+### Bash / Shell Essentials
+- Navigating the terminal (`cd`, `ls`, `pwd`, `mkdir`)
+- File operations (`cp`, `mv`, `rm`, `cat`, `grep`)
+- Environment variables and `.env` files
+- Running Python scripts from the command line
+- Basic shell scripting for automation
+- Using `pip`, `venv`, and `conda` for environment management
+
+> SQL and Bash are essential skills for any AI engineer working with data pipelines, cloud servers, and Docker containers.
+
 ---
 
 ## 🛠️ Tools & Technologies
@@ -52,6 +69,8 @@ By the end of this stage you will:
 | NumPy | 1.24+ | Numerical computing |
 | Pandas | 2.0+ | Data manipulation |
 | Requests | 2.31+ | HTTP calls |
+| SQLite / PostgreSQL | — | Database querying |
+| Bash | — | Shell scripting and automation |
 | Jupyter | Latest | Interactive notebooks |
 
 ---

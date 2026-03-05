@@ -58,16 +58,16 @@ Each folder contains:
 
 | Week | Focus | Deliverable |
 |------|-------|-------------|
-| Week 1 | Math: Linear Algebra + Statistics | Complete math cheat sheet |
-| Week 2 | Python basics + data structures | 30 Python coding exercises |
-| Week 3 | NumPy + Pandas essentials | Data analysis mini-project |
+| Week 1 | Math: Linear Algebra + Statistics + CS fundamentals | Complete math cheat sheet |
+| Week 2 | Python basics + data structures + Bash essentials | 30 Python coding exercises |
+| Week 3 | NumPy + Pandas + SQL basics | Data analysis mini-project |
 | Week 4 | Data visualization + EDA | EDA report on a real dataset |
 
-### Month 2 — Data & Machine Learning
+### Month 2 — Data Engineering & Machine Learning
 
 | Week | Focus | Deliverable |
 |------|-------|-------------|
-| Week 5 | Data wrangling + feature engineering | Clean dataset pipeline |
+| Week 5 | Data engineering (ETL, SQL pipelines) + feature engineering | Clean dataset pipeline |
 | Week 6 | Supervised learning (regression, classification) | Predict house prices |
 | Week 7 | Unsupervised learning + clustering | Customer segmentation |
 | Week 8 | Model evaluation + hyperparameter tuning | Full ML pipeline |
@@ -139,10 +139,12 @@ Each folder contains:
 
 ## 🛠️ Tech Stack
 
-### Languages
+### Languages & Scripting
 | Tool | Use |
 |------|-----|
 | Python | Primary language for all AI work |
+| SQL | Data querying, feature engineering, analytics |
+| Bash | Shell scripting, automation, server management |
 
 ### Core Libraries
 | Library | Use |
@@ -165,19 +167,23 @@ Each folder contains:
 | Git / GitHub | Version control, portfolio |
 | Docker | Containerization |
 | Kubernetes | Container orchestration |
+| Terraform | Infrastructure as code |
 | FastAPI | API development |
 | Streamlit | AI demo UIs |
 | MLflow | Experiment tracking |
+| Weights & Biases (W&B) | Experiment tracking and visualization |
 | Langfuse | AI observability |
+| LangSmith | LLM tracing and evaluation |
 | vLLM | LLM serving |
-| FAISS / Pinecone / Weaviate | Vector databases |
-| AWS / GCP | Cloud deployment |
+| ONNX / TensorRT | Inference optimization |
+| FAISS / Pinecone / Chroma / Qdrant / Weaviate | Vector databases |
+| AWS / GCP / Azure | Cloud deployment |
 | HuggingFace Hub | Model hosting |
 | Replicate / Modal / RunPod | GPU inference |
 
 ---
 
-## 🏗️ Real-World Projects (20)
+## 🏗️ Real-World Projects (21)
 
 | # | Project | Stage | Skills |
 |---|---------|-------|--------|
@@ -201,19 +207,20 @@ Each folder contains:
 | 18 | Personalized Learning AI Tutor | Agents | Memory, multi-turn agents |
 | 19 | Fraud Detection System | ML | Anomaly detection, imbalanced data |
 | 20 | Multimodal AI Application | DL + LLM | Vision-language models, multimodal |
+| 21 | AI Voice Assistant | LLM + Audio | Whisper, TTS, real-time conversation |
 
 ---
 
 ## 📚 Curriculum Stages
 
 ### [Stage 0 — Foundations](./00-foundations/)
-Math and programming fundamentals required for AI. Linear algebra, calculus, statistics, and probability.
+Math, CS fundamentals, and programming basics. Linear algebra, calculus, statistics, probability, and data structures.
 
 ### [Stage 1 — Python](./01-python/)
-Python engineering fundamentals with a focus on AI use cases: OOP, file I/O, APIs, NumPy, and Pandas.
+Python engineering fundamentals with a focus on AI use cases: OOP, file I/O, APIs, SQL basics, Bash, NumPy, and Pandas.
 
 ### [Stage 2 — Data](./02-data/)
-Data engineering, wrangling, EDA, feature engineering, and data visualization with real datasets.
+Data engineering fundamentals, SQL, ETL pipelines, EDA, feature engineering, and data visualization.
 
 ### [Stage 3 — Machine Learning](./03-machine-learning/)
 Supervised, unsupervised, and reinforcement learning fundamentals with Scikit-learn.
@@ -228,13 +235,13 @@ Prompt engineering, RAG systems, vector databases, and fine-tuning large languag
 AI agents, tool use, multi-agent systems with LangGraph and CrewAI, agent memory and evaluation.
 
 ### [Stage 7 — MLOps](./07-mlops/)
-Experiment tracking, model versioning, CI/CD pipelines, monitoring, and AI observability.
+Experiment tracking (MLflow, W&B), model versioning, CI/CD, Terraform, monitoring, and observability.
 
 ### [Stage 8 — Deployment](./08-deployment/)
-AI deployment, model serving, Docker, Kubernetes, cloud infrastructure, and security best practices.
+Cloud deployment (AWS/GCP/Azure), Docker, Kubernetes, inference optimization (vLLM, ONNX, TensorRT), AI security.
 
 ### [Stage 9 — AI Projects](./09-ai-projects/)
-20 end-to-end real-world AI projects with code, explanations, and deployment guides.
+21 end-to-end real-world AI projects with code, explanations, and deployment guides.
 
 ### [Stage 10 — Career Preparation](./10-career-prep/)
 Portfolio building, AI engineer interview prep, system design, open source contributions.

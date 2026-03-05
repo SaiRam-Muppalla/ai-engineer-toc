@@ -1,19 +1,44 @@
-# Stage 2 — Data Analysis & Visualization
+# Stage 2 — Data Engineering, Analysis & Visualization
 
 ## 🎯 Learning Objectives
 
 By the end of this stage you will:
+- Understand data engineering fundamentals (ETL, pipelines, data quality)
+- Write SQL queries to extract and transform data
 - Perform exploratory data analysis (EDA) on real-world datasets
 - Clean messy, real-world data confidently
 - Engineer meaningful features from raw data
 - Create professional visualizations that tell a story
 - Apply statistical tests to validate insights
 
-## ⏱️ Estimated Time: 1 week
+## ⏱️ Estimated Time: 1.5 weeks
 
 ---
 
 ## 📐 Key Concepts
+
+### Data Engineering Fundamentals
+
+| Concept | Description |
+|---------|-------------|
+| ETL Pipelines | Extract data from sources → Transform (clean, aggregate) → Load into a destination |
+| Data Warehousing | Central repository for structured data optimized for analytics |
+| Data Lakes | Storage for raw, unstructured data (S3, GCS, Azure Blob) |
+| Batch vs Streaming | Batch for periodic jobs; streaming for real-time (Kafka, Pub/Sub) |
+| Data Quality | Validation, schema checks, completeness, consistency |
+| Data Versioning | Track dataset versions for reproducibility (DVC, Delta Lake) |
+
+**SQL for Data Engineering:**
+- Writing complex queries: JOINs, CTEs, window functions
+- Aggregations for reporting and feature computation
+- Indexing and query optimization basics
+- Tools: PostgreSQL, SQLite, BigQuery, DuckDB
+
+**Python Data Pipelines:**
+- Reading from multiple sources (CSV, JSON, SQL, APIs)
+- Transforming data with Pandas and SQL
+- Scheduling with cron or workflow tools (Airflow concepts)
+- Data validation with Great Expectations or Pandera
 
 ### Exploratory Data Analysis (EDA)
 - Understanding data types, distributions, and shapes
@@ -44,10 +69,12 @@ By the end of this stage you will:
 |------|---------|
 | Pandas | Data manipulation |
 | NumPy | Numerical operations |
+| SQL (PostgreSQL / SQLite / DuckDB) | Data querying and transformation |
 | Matplotlib | Low-level plotting |
 | Seaborn | Statistical visualization |
 | Plotly | Interactive charts |
 | ydata-profiling | Automated EDA reports |
+| Great Expectations / Pandera | Data validation |
 
 ---
 

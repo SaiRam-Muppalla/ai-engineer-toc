@@ -2,7 +2,7 @@
 
 ## 🎯 Overview
 
-This stage contains **20 complete, real-world AI projects** ranging from beginner to advanced. Each project includes a description, technologies used, and expected learning outcomes so you know exactly what you will build and what skills you will gain.
+This stage contains **21 complete, real-world AI projects** ranging from beginner to advanced. Each project includes a description, technologies used, and expected learning outcomes so you know exactly what you will build and what skills you will gain.
 
 **Choose projects that align with your target role or startup idea.**
 
@@ -24,14 +24,15 @@ This stage contains **20 complete, real-world AI projects** ranging from beginne
 | 10 | [Sentiment Analysis Dashboard](#project-10-sentiment-analysis-dashboard) | ⭐⭐ | BERT, Streamlit | 3 days |
 | 11 | [Stock Price Predictor](#project-11-stock-price-predictor) | ⭐⭐⭐ | LSTM, time series | 4 days |
 | 12 | [Multimodal AI Application](#project-12-multimodal-ai-application) | ⭐⭐⭐⭐ | GPT-4V, CLIP, Whisper | 7 days |
-| 13 | [AI Research Paper Summarizer](#additional-projects) | ⭐⭐ | RAG, PDF parsing | 3 days |
-| 14 | [AI Meeting Summarizer](#additional-projects) | ⭐⭐ | Whisper, LLM | 3 days |
-| 15 | [Fake News Detector](#additional-projects) | ⭐⭐ | NLP, ML | 3 days |
-| 16 | [AI-Powered Job Board](#additional-projects) | ⭐⭐⭐ | RAG, FastAPI | 5 days |
-| 17 | [AI Email Generator](#additional-projects) | ⭐⭐ | Prompt engineering | 2 days |
-| 18 | [Medical Diagnosis Assistant](#additional-projects) | ⭐⭐⭐ | ML, explainability | 5 days |
-| 19 | [AI Content Moderator](#additional-projects) | ⭐⭐ | Zero-shot LLM | 2 days |
-| 20 | [Personalized AI Learning Tutor](#additional-projects) | ⭐⭐⭐⭐ | Agents, memory | 7 days |
+| 13 | [AI Voice Assistant](#project-13-ai-voice-assistant) | ⭐⭐⭐ | Whisper, TTS, LLM | 5 days |
+| 14 | [AI Research Paper Summarizer](#additional-projects) | ⭐⭐ | RAG, PDF parsing | 3 days |
+| 15 | [AI Meeting Summarizer](#additional-projects) | ⭐⭐ | Whisper, LLM | 3 days |
+| 16 | [Fake News Detector](#additional-projects) | ⭐⭐ | NLP, ML | 3 days |
+| 17 | [AI-Powered Job Board](#additional-projects) | ⭐⭐⭐ | RAG, FastAPI | 5 days |
+| 18 | [AI Email Generator](#additional-projects) | ⭐⭐ | Prompt engineering | 2 days |
+| 19 | [Medical Diagnosis Assistant](#additional-projects) | ⭐⭐⭐ | ML, explainability | 5 days |
+| 20 | [AI Content Moderator](#additional-projects) | ⭐⭐ | Zero-shot LLM | 2 days |
+| 21 | [Personalized AI Learning Tutor](#additional-projects) | ⭐⭐⭐⭐ | Agents, memory | 7 days |
 
 ---
 
@@ -193,20 +194,33 @@ This stage contains **20 complete, real-world AI projects** ranging from beginne
 
 ---
 
+### Project 13: AI Voice Assistant
+
+**Description:** Build a real-time voice-based AI assistant that listens to spoken questions, transcribes them with Whisper, generates intelligent responses using an LLM, and speaks the answer back using text-to-speech — enabling a fully hands-free conversational AI experience.
+
+**Technologies:** OpenAI Whisper (speech-to-text), GPT-4o / Ollama (LLM), ElevenLabs / Coqui TTS (text-to-speech), FastAPI (API layer), WebSocket (real-time streaming), Python
+
+**Learning Outcomes:**
+- Build end-to-end audio AI pipelines connecting speech-to-text, LLM reasoning, and text-to-speech
+- Implement real-time streaming with WebSockets for low-latency conversational experiences
+- Handle audio processing challenges: noise reduction, silence detection, and speaker turn management
+
+---
+
 ## Additional Projects
 
 The following projects follow the same hands-on format. Refer to each project folder for the full specification, starter code, and deployment instructions.
 
 | # | Project | Description | Technologies | Time |
 |---|---------|-------------|-------------|------|
-| 13 | AI Research Paper Summarizer | Upload research PDFs and get structured summaries, Q&A, and cross-paper comparisons | LangChain, Chroma, sentence-transformers, Streamlit | 3 days |
-| 14 | AI Meeting Summarizer | Transcribe meeting recordings and extract summaries, action items, and key decisions with speaker diarization | OpenAI Whisper, GPT-4, FastAPI, Streamlit | 3 days |
-| 15 | Fake News Detector | Classify news articles as real or fake with SHAP-based explainability and a credibility score | NLP, XGBoost, BERT, SHAP, FastAPI | 3 days |
-| 16 | AI-Powered Job Board | Smart job board with semantic job search, resume-to-job matching, and auto-generated cover letters | FastAPI, PostgreSQL, Pinecone, React/Streamlit | 5 days |
-| 17 | AI Email Generator | Generate personalized outreach emails with tone adjustment and A/B test variations | OpenAI/LLM, FastAPI, Streamlit | 2 days |
-| 18 | Medical Diagnosis Assistant | Assist doctors with preliminary diagnosis from symptoms using ML with SHAP explainability | Scikit-learn, SHAP, FastAPI, Streamlit | 5 days |
-| 19 | AI Content Moderator | Detect harmful, toxic, or policy-violating content using zero-shot classification | HuggingFace zero-shot, FastAPI, Streamlit | 2 days |
-| 20 | Personalized AI Learning Tutor | Adaptive AI tutor that adjusts difficulty, tracks progress, and generates personalized study plans | LangChain, LangGraph, vector memory, Streamlit | 7 days |
+| 14 | AI Research Paper Summarizer | Upload research PDFs and get structured summaries, Q&A, and cross-paper comparisons | LangChain, Chroma, sentence-transformers, Streamlit | 3 days |
+| 15 | AI Meeting Summarizer | Transcribe meeting recordings and extract summaries, action items, and key decisions with speaker diarization | OpenAI Whisper, GPT-4, FastAPI, Streamlit | 3 days |
+| 16 | Fake News Detector | Classify news articles as real or fake with SHAP-based explainability and a credibility score | NLP, XGBoost, BERT, SHAP, FastAPI | 3 days |
+| 17 | AI-Powered Job Board | Smart job board with semantic job search, resume-to-job matching, and auto-generated cover letters | FastAPI, PostgreSQL, Pinecone, React/Streamlit | 5 days |
+| 18 | AI Email Generator | Generate personalized outreach emails with tone adjustment and A/B test variations | OpenAI/LLM, FastAPI, Streamlit | 2 days |
+| 19 | Medical Diagnosis Assistant | Assist doctors with preliminary diagnosis from symptoms using ML with SHAP explainability | Scikit-learn, SHAP, FastAPI, Streamlit | 5 days |
+| 20 | AI Content Moderator | Detect harmful, toxic, or policy-violating content using zero-shot classification | HuggingFace zero-shot, FastAPI, Streamlit | 2 days |
+| 21 | Personalized AI Learning Tutor | Adaptive AI tutor that adjusts difficulty, tracks progress, and generates personalized study plans | LangChain, LangGraph, vector memory, Streamlit | 7 days |
 
 ---
 

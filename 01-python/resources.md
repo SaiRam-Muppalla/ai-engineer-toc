@@ -52,3 +52,22 @@
 | Real Python tutorials | https://realpython.com/ |
 | Python Design Patterns | https://python-patterns.guide/ |
 | Awesome Python (curated list) | https://github.com/vinta/awesome-python |
+
+## 🗃️ SQL Resources
+
+| Resource | Description | Link |
+|----------|-------------|------|
+| SQLBolt (Interactive Tutorial) | Learn SQL step-by-step in the browser | https://sqlbolt.com/ |
+| Mode SQL Tutorial | SQL for data analysis | https://mode.com/sql-tutorial/ |
+| Kaggle Intro to SQL | Hands-on SQL with BigQuery | https://www.kaggle.com/learn/intro-to-sql |
+| SQLite Documentation | Lightweight embedded database | https://www.sqlite.org/docs.html |
+| PostgreSQL Official Docs | Production-grade relational database | https://www.postgresql.org/docs/ |
+
+## 🖥️ Bash / Shell Resources
+
+| Resource | Description | Link |
+|----------|-------------|------|
+| Linux Command Line Basics (Udacity) | Free course on terminal essentials | https://www.udacity.com/course/linux-command-line-basics--ud595 |
+| The Missing Semester (MIT) | Shell scripting and dev tools | https://missing.csail.mit.edu/ |
+| Bash Scripting Tutorial | Interactive Bash tutorial | https://www.learnshell.org/ |
+| Explain Shell | Break down any shell command | https://explainshell.com/ |

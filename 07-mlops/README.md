@@ -62,6 +62,14 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 - Register and version models
 - Serve models directly from MLflow
 
+### 4b. Experiment Tracking with Weights & Biases (W&B)
+
+- Log training metrics and hyperparameters
+- Visualize training runs with interactive dashboards
+- Artifact versioning for datasets and models
+- Collaborative experiment comparison across teams
+- Hyperparameter sweep automation
+
 ### 5. CI/CD for AI
 
 ```yaml
@@ -81,13 +89,26 @@ jobs:
         run: # your deploy commands
 ```
 
-### 6. Model Monitoring
+### 6. Infrastructure as Code (IaC)
+
+Use Terraform to provision cloud resources reproducibly:
+
+| Tool | Purpose |
+|------|---------|
+| Terraform | Cloud infrastructure provisioning (VMs, networking, storage) |
+| Docker Compose | Local multi-service orchestration |
+| Kubernetes manifests | Container orchestration configuration |
+| GitHub Actions | CI/CD workflow automation |
+
+> Terraform lets you define your cloud infrastructure (GPU VMs, storage buckets, networking) as code, making deployments repeatable and version-controlled.
+
+### 7. Model Monitoring
 
 - **Data drift** — Input distribution shift over time
 - **Concept drift** — Model accuracy degradation
 - **Latency monitoring** — P50, P95, P99 response times
 - **Error rates** — Track prediction failures
-- **Tools:** Evidently AI, Arize AI, WhyLogs
+- **Tools:** Evidently AI, Arize AI, WhyLogs, Weights & Biases
 
 ---
 
@@ -100,6 +121,8 @@ jobs:
 | Docker | Containerization |
 | Docker Compose | Multi-service apps |
 | MLflow | Experiment tracking |
+| Weights & Biases (W&B) | Experiment tracking and visualization |
+| Terraform | Infrastructure as code |
 | GitHub Actions | CI/CD |
 | AWS EC2 / GCP Compute | Cloud compute |
 | AWS Lambda | Serverless inference |

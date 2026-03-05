@@ -150,6 +150,8 @@ spec:
 | PagedAttention | Efficient memory management for KV cache | 2–4× | Implementation complexity |
 | Tensor Parallelism | Split model across multiple GPUs | Near-linear scaling | Requires multiple GPUs |
 | Prompt Caching | Cache repeated prompt prefixes | 1.5–10× | Storage overhead |
+| ONNX Runtime | Cross-platform optimized inference runtime | 1.5–3× | Export step required |
+| NVIDIA TensorRT | GPU-optimized inference with kernel fusion | 2–6× | NVIDIA GPUs only |
 
 **Quantization Example with bitsandbytes:**
 
@@ -616,14 +618,18 @@ Monitoring (Langfuse / PostHog / Sentry)
 |------|---------|
 | Docker | Containerization |
 | Kubernetes | Container orchestration |
+| Terraform | Infrastructure as code |
 | vLLM | High-throughput LLM serving |
 | NVIDIA Triton | GPU inference server |
+| NVIDIA TensorRT | GPU-optimized inference engine |
 | Modal | Serverless GPU functions |
 | AWS (EC2, Lambda, SageMaker) | Cloud compute and ML services |
 | GCP (Cloud Run, Vertex AI) | Cloud compute and ML services |
+| Azure (AKS, Azure ML, Azure Functions) | Cloud compute and ML services |
 | FastAPI | API development |
 | Langfuse | LLM observability (open-source) |
 | Langsmith | LangChain tracing and evaluation |
+| Weights & Biases | Experiment tracking and monitoring |
 | Arize AI | ML/LLM monitoring |
 | Evidently AI | Data and model monitoring |
 | ONNX Runtime | Cross-platform inference |

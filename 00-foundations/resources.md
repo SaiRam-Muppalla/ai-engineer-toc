@@ -55,3 +55,13 @@
 | SymPy Documentation | https://docs.sympy.org/ |
 | MIT OpenCourseWare Linear Algebra | https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/ |
 | Stanford CS229 Math Review | https://cs229.stanford.edu/section/ |
+
+## 💻 CS Fundamentals & DSA Resources
+
+| Resource | Description | Link |
+|----------|-------------|------|
+| NeetCode — DSA Roadmap | Structured DSA learning path with video solutions | https://neetcode.io/ |
+| CS50 — Harvard (YouTube) | Best intro to CS fundamentals | https://www.youtube.com/cs50 |
+| Python Data Structures (freeCodeCamp) | Full DSA course in Python | https://www.youtube.com/watch?v=pkYVOmU3MgA |
+| Big-O Cheat Sheet | Complexity reference for common algorithms | https://www.bigocheatsheet.com/ |
+| Visualgo | Visualize sorting, searching, and graph algorithms | https://visualgo.net/ |
