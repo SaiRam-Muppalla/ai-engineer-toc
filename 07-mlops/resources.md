@@ -1,4 +1,23 @@
-# Stage 6 — MLOps Resources
+# Stage 7 — MLOps Resources
+
+## 📚 Best Books
+
+| Title | Author(s) |
+|-------|-----------|
+| Designing Machine Learning Systems | Chip Huyen |
+| Machine Learning Engineering | Andriy Burkov |
+| Introducing MLOps | Mark Treveil |
+| Building Machine Learning Pipelines | Hannes Hapke, Catherine Nelson |
+
+## 🔓 Best Open Source Resources
+
+| Resource | Link |
+|----------|------|
+| MLflow Documentation | https://mlflow.org/docs/latest/ |
+| DVC Documentation | https://dvc.org/doc |
+| Evidently AI | https://github.com/evidentlyai/evidently |
+| Great Expectations | https://github.com/great-expectations/great_expectations |
+| Awesome MLOps | https://github.com/visenger/awesome-mlops |
 
 ## 📺 YouTube Content
 
